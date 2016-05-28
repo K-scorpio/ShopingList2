@@ -7,17 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E2171C231CF89A3700E3AF3D /* ShoppingListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2171C221CF89A3700E3AF3D /* ShoppingListTableViewController.swift */; };
+		E2171C251CF89A6300E3AF3D /* ButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2171C241CF89A6300E3AF3D /* ButtonTableViewCell.swift */; };
+		E2171C271CF89A8100E3AF3D /* ShoppingListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2171C261CF89A8100E3AF3D /* ShoppingListController.swift */; };
+		E2171C2A1CF89AA500E3AF3D /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E2171C281CF89AA500E3AF3D /* Model.xcdatamodeld */; };
+		E2171C2D1CF89BB100E3AF3D /* ShoppingList+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2171C2B1CF89BB100E3AF3D /* ShoppingList+CoreDataProperties.swift */; };
+		E2171C2E1CF89BB100E3AF3D /* ShoppingList.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2171C2C1CF89BB100E3AF3D /* ShoppingList.swift */; };
+		E2171C331CF89C3A00E3AF3D /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2171C321CF89C3A00E3AF3D /* Stack.swift */; };
 		E2A1F6121CF2AF7F00F7BE39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A1F6111CF2AF7F00F7BE39 /* AppDelegate.swift */; };
-		E2A1F6141CF2AF7F00F7BE39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A1F6131CF2AF7F00F7BE39 /* ViewController.swift */; };
 		E2A1F6171CF2AF7F00F7BE39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2A1F6151CF2AF7F00F7BE39 /* Main.storyboard */; };
 		E2A1F6191CF2AF7F00F7BE39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2A1F6181CF2AF7F00F7BE39 /* Assets.xcassets */; };
 		E2A1F61C1CF2AF7F00F7BE39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2A1F61A1CF2AF7F00F7BE39 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E2171C221CF89A3700E3AF3D /* ShoppingListTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingListTableViewController.swift; sourceTree = "<group>"; };
+		E2171C241CF89A6300E3AF3D /* ButtonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonTableViewCell.swift; sourceTree = "<group>"; };
+		E2171C261CF89A8100E3AF3D /* ShoppingListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingListController.swift; sourceTree = "<group>"; };
+		E2171C291CF89AA500E3AF3D /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		E2171C2B1CF89BB100E3AF3D /* ShoppingList+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ShoppingList+CoreDataProperties.swift"; path = "../ShoppingList+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		E2171C2C1CF89BB100E3AF3D /* ShoppingList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ShoppingList.swift; path = ../ShoppingList.swift; sourceTree = "<group>"; };
+		E2171C321CF89C3A00E3AF3D /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		E2A1F60E1CF2AF7F00F7BE39 /* ShoppingList2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingList2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2A1F6111CF2AF7F00F7BE39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E2A1F6131CF2AF7F00F7BE39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E2A1F6161CF2AF7F00F7BE39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E2A1F6181CF2AF7F00F7BE39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2A1F61B1CF2AF7F00F7BE39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,6 +47,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E2171C2F1CF89BE100E3AF3D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E2171C2B1CF89BB100E3AF3D /* ShoppingList+CoreDataProperties.swift */,
+				E2171C2C1CF89BB100E3AF3D /* ShoppingList.swift */,
+				E2171C281CF89AA500E3AF3D /* Model.xcdatamodeld */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E2171C301CF89BF600E3AF3D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E2171C241CF89A6300E3AF3D /* ButtonTableViewCell.swift */,
+				E2171C221CF89A3700E3AF3D /* ShoppingListTableViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		E2171C311CF89C1300E3AF3D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E2171C261CF89A8100E3AF3D /* ShoppingListController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		E2A1F6051CF2AF7F00F7BE39 = {
 			isa = PBXGroup;
 			children = (
@@ -55,8 +94,11 @@
 			isa = PBXGroup;
 			children = (
 				E2A1F6111CF2AF7F00F7BE39 /* AppDelegate.swift */,
-				E2A1F6131CF2AF7F00F7BE39 /* ViewController.swift */,
 				E2A1F6151CF2AF7F00F7BE39 /* Main.storyboard */,
+				E2171C321CF89C3A00E3AF3D /* Stack.swift */,
+				E2171C311CF89C1300E3AF3D /* Controllers */,
+				E2171C301CF89BF600E3AF3D /* ViewControllers */,
+				E2171C2F1CF89BE100E3AF3D /* Model */,
 				E2A1F6181CF2AF7F00F7BE39 /* Assets.xcassets */,
 				E2A1F61A1CF2AF7F00F7BE39 /* LaunchScreen.storyboard */,
 				E2A1F61D1CF2AF7F00F7BE39 /* Info.plist */,
@@ -135,8 +177,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2A1F6141CF2AF7F00F7BE39 /* ViewController.swift in Sources */,
+				E2171C251CF89A6300E3AF3D /* ButtonTableViewCell.swift in Sources */,
+				E2171C2D1CF89BB100E3AF3D /* ShoppingList+CoreDataProperties.swift in Sources */,
+				E2171C2E1CF89BB100E3AF3D /* ShoppingList.swift in Sources */,
 				E2A1F6121CF2AF7F00F7BE39 /* AppDelegate.swift in Sources */,
+				E2171C331CF89C3A00E3AF3D /* Stack.swift in Sources */,
+				E2171C2A1CF89AA500E3AF3D /* Model.xcdatamodeld in Sources */,
+				E2171C231CF89A3700E3AF3D /* ShoppingListTableViewController.swift in Sources */,
+				E2171C271CF89A8100E3AF3D /* ShoppingListController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,8 +336,22 @@
 				E2A1F6221CF2AF7F00F7BE39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E2171C281CF89AA500E3AF3D /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E2171C291CF89AA500E3AF3D /* Model.xcdatamodel */,
+			);
+			currentVersion = E2171C291CF89AA500E3AF3D /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E2A1F6061CF2AF7F00F7BE39 /* Project object */;
 }
